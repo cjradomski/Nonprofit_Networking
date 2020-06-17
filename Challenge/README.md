@@ -10,11 +10,9 @@ scores that were tested.
 Unfortunately, the target model performance was not achieved. Steps that were taken to try to improve the models performance included 
 testing different hidden layer and neuron combinations as well as testing different activation functions. The Leaky ReLU function seemed 
 promising as the scaled input data included a good amount of negative values, however it did not improve the accuracy score in the end. 
-Furthermore, the data itself was taken another look at and certain arbitrary columns such as name and ID were removed.
+Furthermore, the data itself was taken another look at and certain arbitrary columns such as name and ID were removed. I also tested the model using 200 epochs instead of 100 and the results proved to not be impactful.
 
-In the future, I would implement a Support Vector Machine Model to see if it has comaprable results to this model. Since the output data is 
-binary, trying to classify groups into succesful or not, I believe SVM could have an advantage. The data had a lot of features and SVM has 
-the ability to create multidimensional borders which can prove to be useful when classifying this type of data.
+In the future, I would implement a Support Vector Machine Model to see if it has comaprable results to this model. Since the output data is binary, trying to classify groups into succesful or not, I believe SVM could have an advantage. The data had a lot of features and SVM has the ability to create multidimensional borders which can prove to be useful when classifying this type of data.
 
 
 
